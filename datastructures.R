@@ -148,3 +148,18 @@ prop.table((table(gender)))
 x=c(1.4,2.5)
 floor(x)
 ceiling(x)
+
+
+#How to get data set from csv
+getwd()
+
+
+data=read.csv("trial.csv")
+print(data)
+print(is.data.frame(data))
+print(ncol(data))
+print(nrow(data))
+
+retval = subset(data, fruits >=1 & fruits <=2)
+
+                          
